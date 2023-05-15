@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap");
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: #F2F2F2;
+
+    /* background: linear-gradient(90deg, #9453A6, #8CBF3F, #F2CC0F, #F2F2F2, #F2CC0F, #8CBF3F, #9453A6); */
+    /* background-image: radial-gradient(#F2F2F2, #F2F2F2, #F2F2F2, #F2CC0F, #9453A6); */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Pattaya";
+
+}
+
+p {
+    font-family: "Roboto";
+    text-align: justify;
+}
+
+#logo {
+    max-height: 8vh;
+}
+
+.navbar-expand-md {
+    /* background-color: #9453A6; */
+    background: linear-gradient(90deg, #9453A6, #8CBF3F, #F2CC0F, #F2F2F2, #F2CC0F, #8CBF3F, #9453A6);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    max-height: 10vw;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.navbar-nav {
+    max-height: 10vw;
+    align-items: center;
+}
+
+.nav-item {
+    width: 10vw;
+    max-height: 10vh;
+    text-align: center;
+}
+
+.nav-link {
+    color: #0D0D0D;
+    font-family: 'Henny Penny';
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+.container {
+    max-width: 90vw;
+    /* justify-content: center; */
+}
+
+.carousel-inner img {
+    max-height: 75vh;
+    max-width: 90vw;
+    object-fit: cover;
+}
+
+
+
+#sponsors .card-body {
+    height: 13vh;
+}
+
+
+
+.card-img-top {
+    height: 250px;
+}
+
+.card {
+    width: 400px;
+}
+
+.collapsed {
+    font-size: 1.5rem;
+    color: #0D0D0D;
+    opacity: 0.7;
+}
+
+.accordion-button {
+    background: linear-gradient(90deg, #9453A6, #8CBF3F, #F2CC0F, #F2F2F2, #F2CC0F, #8CBF3F, #9453A6);
+    opacity: 1;
+    font-size: 1.5rem;
+    color: #0D0D0D;
+
+}
+
+/* .accordion-header {
+    font-size: 2rem;
+} */
+
+/* .accordion-body {
+    font-size: 1rem;
+} */
+
+.accordion-border-color {
+    border-color: linear-gradient(90deg, #9453A6, #8CBF3F, #F2CC0F, #F2F2F2, #F2CC0F, #8CBF3F, #9453A6);
+}
+
+.accordion-button-active-color {
+    color: #0D0D0D;
+}
+
+.accordion-item {
+    width: 70vw;
+    /* font-size: 1.5rem; */
+}
+
+#accordion {
+    width: 70vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+
+}
+
+#history {
+    font-family: 'Henny Penny';
+    font-size: 3rem;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    color: #0D0D0D
+}
+
+.accordion {
+    color: #0D0D0D;
+}
+
+.about {
+
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin: 0;
+}
+
+#LaToya {
+    width: 39vw;
+}
+
+#contactForm {
+    width: 40vw;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5rem;
+
+}
+
+.btn {
+    background: linear-gradient(90deg, #9453A6, #8CBF3F, #F2CC0F, #F2F2F2, #F2CC0F, #8CBF3F, #9453A6);
+}
+
+.col {
+    width: 30vw;
+    height: 40vh;
+}
+
+.col img {
+    width: 20vw;
+
+}
